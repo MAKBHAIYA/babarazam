@@ -74,7 +74,12 @@ display: flex;
     text-align: center;
 
   }
-
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem auto;
+}
   th {
 
     font-weight: bolder;
@@ -85,7 +90,4 @@ display: flex;
 
     background-color: #1a3323;
 
-  } 
-
-
-  
+  }
